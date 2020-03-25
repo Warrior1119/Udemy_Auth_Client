@@ -4,7 +4,6 @@ import * as actions from "../../actions";
 
 class Signout extends Component {
   componentDidMount() {
-    console.log("1111111111111111111111111111");
     this.props.signout();
   }
   render() {
